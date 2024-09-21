@@ -13,6 +13,8 @@ body{
     font-family: "Roboto Mono", monospace;
     color: #EBEBEB;
     background-color: #363636;
+    line-height: 150%;
+    box-sizing: border-box;
 }
 
 li{
