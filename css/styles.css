@@ -1,0 +1,149 @@
+/* Importamos la fuente */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* Receteamos los estilos */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* estilos generales */
+body{
+    font-family: "Roboto Mono", monospace;
+    color: #EBEBEB;
+    background-color: #363636;
+}
+
+li{
+    list-style: none;
+}
+
+.decoracion{
+    color: #1AD11A;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* estilos del navbar */
+nav{
+    padding: 24px;
+    text-align: center;
+}
+
+
+nav div{
+    padding: 0 50px;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+nav div ul li a{
+    padding: 12px 25px;
+    text-decoration: none;
+    color: #EBEBEB;
+    border-radius: 8px;
+}
+
+nav div ul li a:hover{
+    background-color: #222222;
+    text-decoration: underline;
+}
+
+nav div, nav div ul li{
+    display: inline-block;
+}
+
+nav div ul li{
+    margin: 10px 0;
+}
+
+
+/* Estilos del main*/
+
+main{
+    text-align: center;
+}
+
+main section, header{
+    padding: 60px;
+}
+
+/* estilos del heder*/
+
+header, .sobremi{
+    background-color: #222222;
+}
+
+header img{
+    max-width: 200px;
+}
+
+/* estilos de la galería*/
+.galeria{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card{
+    padding: 16px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.card:hover{
+    background-color: #222222;
+}
+
+.card img{
+    max-width: 150px;
+
+}
+
+/* estilos la sección sobre mi*/
+
+.texto_sobremi{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.boton{
+    color: #1AD11A;
+    padding: 12px 24px;
+    border: 1px solid;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 24px;
+    border-radius: 8px;
+    
+}
+
+.boton span, .boton p{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+svg{
+    fill: #1AD11A;
+}
+
+
+.boton:hover{
+    background-color: #1AD11A;
+    color: #222222;
+
+    & svg{
+        fill: #222222;
+    }
+}
+
+/* estilos de footer*/
+
+footer{
+    padding: 24px;
+    text-align: center;
+}
